@@ -15,8 +15,12 @@
 
       <div class="trigger">
         {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% if my_page.ext_url %}
+            <a class="page-link" href="{{ my_page.ext_url }}" target="_blank">{{ my_page.title }}</a>
+          {% else %}
+            {% if my_page.title %}
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            {% endif %}
           {% endif %}
         {% endfor %}
       </div>
