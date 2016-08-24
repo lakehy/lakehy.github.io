@@ -18,4 +18,4 @@ github_username:  lakehy
 
 # Build settings
 markdown: kramdown
-keep_files: [embedman]
+keep_files: [devtips, embedman]
