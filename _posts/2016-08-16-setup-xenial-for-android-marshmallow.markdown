@@ -44,7 +44,7 @@ echo "export USE_CCACHE=1" >> ~/.profile
 
 ## 下载及编译
 
-参考VAB-820 Android 6 [Quick Guide](imx6-android-build-setup.html)
+参考VAB-820 Android 6 [Quick Guide](/devtips/imx6/android/vab820-android6-dev-guide.html)
 
 
 ## 参考
