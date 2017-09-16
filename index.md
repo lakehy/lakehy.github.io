@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-
-# Everything is a stream
+# Tech Notes
 
 ## Posts
+
 <ul class="post-list">
   {% for post in site.posts %}
     <li>
@@ -14,8 +14,4 @@ layout: default
   {% endfor %}
 </ul>
 
-## ToDo
-
-- Write the gitbook about build environments
-
-subscribe [via Rss](feed.xml)
+[Rss订阅](feed.xml)
