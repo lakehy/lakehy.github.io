@@ -3,11 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
+# ToDo
 
-Do some multimedias on  
-
-- Gstreamer
-- Linux Kernel
-- Android
-- Raspberry Pi
+- [ ] Gstreamer
+- [ ] Linux Kernel
+- [ ] Android
+- [ ] Raspberry Pi
 
