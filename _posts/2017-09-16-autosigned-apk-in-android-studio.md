@@ -75,7 +75,7 @@ tags: []
 这样就使用系统的platform密钥对生成了签名证书，该证书可以为platform访问权限签名。
 
 证书的密码是 `android`,
-证书名称是 `platform-r111`。
+证书名称是 `platform-xx`。
 
 将签名文件复制到app目录备用。
 
