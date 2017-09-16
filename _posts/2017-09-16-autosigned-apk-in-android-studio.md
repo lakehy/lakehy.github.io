@@ -89,16 +89,16 @@ tags: []
 ```gradle
     signingConfigs{
         release {
-            storeFile file("r111.keystore")
+            storeFile file("xx.keystore")
             storePassword 'android'
-            keyAlias 'platform-r111'
+            keyAlias 'platform-xx'
             keyPassword 'android'
         }
 
         debug {
-            storeFile file("r111.keystore")
+            storeFile file("xx.keystore")
             storePassword 'android'
-            keyAlias 'platform-r111'
+            keyAlias 'platform-xx'
             keyPassword 'android'
         }
     }
