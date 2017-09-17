@@ -10,10 +10,11 @@ tags: []
 
 stm32开发常用的IDE开发环境，虽然比较方便使用，但是却有各种不便：
 
-- ~~~MDK需要购买，并且只支持Windows~~~
-- TrueStudio支持Linux，但是加载太慢，而且定期弹出广告
-- 在Linux上如果TrueStudio不是焦点窗口，
-  弹广告之后，有一个子窗口无法关闭，要么关闭IDE一次再重新打开 ->_->
+- ~~~MDK需要购买~~~
+- ~~~MDK不支持Linux~~~
+- TrueStudio启动太慢，启动后太消耗系统资源
+- TrueStudio定期弹出广告
+- 如果TrueStudio不是焦点窗口，弹广告之后有一个子窗口无法关闭，需要关闭IDE一次再重新打开 ->_->
 
 那么**如何使用神器Vim+Gcc来进行自定义开发**呢？
 
@@ -53,7 +54,11 @@ COMPILER_FLAGS=-c -g -mcpu=cortex-m3  -O0 -Wall -ffunction-sections -fdata-secti
 
     sudo apt install vim
 
-如果想要使用现代化一点的工具，可以使用Visual Studio Code，在Github Atom基础上改写的一款文本编辑器。如果团队使用微软的Team Foundation Server来提供代码托管服务，还可以安装team explorer插件来访问代码。查阅代码时Git Lens插件(基于git blame功能)提供的逐行提交记录也很方便。
+如果想要使用现代化一点的图形界面工具，可以使用Visual Studio Code，一款在Github Atom基础上改写的一款文本编辑器，提供了如下好处：
+
+- Team Explorer插件可以用来访问Team Foundation Server上的代码和Task。
+- Git Lens插件(基于git blame功能)提供的逐行提交记录可以方便的查阅团队代码。
+- 代码高亮，自动补全，代码纠错，等等，安装插件方便。
 
 安装VS Code可以直接去官网下载deb包，或者使用最新版的ubuntu make一键安装。
 
