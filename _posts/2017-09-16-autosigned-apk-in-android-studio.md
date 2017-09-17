@@ -23,7 +23,7 @@ tags: []
 
 `device/vendor/common/security/README`
 
-> ### The following commands were used to generate the test key pairs:
+> ### The following commands were used to generate the test key pairs
 >
 > ```bash
 > development/tools/make_key testkey  '/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN=Android/emailAddress=android@android.com'
